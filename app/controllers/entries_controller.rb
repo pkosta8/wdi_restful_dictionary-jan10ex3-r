@@ -21,5 +21,8 @@ def new
    end
 
 
+     def destroy
+   render :index
+     end
 
 end
