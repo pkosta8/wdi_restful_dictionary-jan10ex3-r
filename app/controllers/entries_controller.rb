@@ -15,4 +15,11 @@ def new
   def create
     redirect_to entries_url
   end
+
+  def edit
+    redirect_to edit.html.erb
+   end
+
+
+
 end
