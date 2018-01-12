@@ -12,5 +12,5 @@ resources :entries
 #            PATCH  /entries/:id(.:format)      entries#update
 #            PUT    /entries/:id(.:format)      entries#update
 #            DELETE /entries/:id(.:format)      entries#destroy
-resources :entries, only: [:index, :show]
+
 end

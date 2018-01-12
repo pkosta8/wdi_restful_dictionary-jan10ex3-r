@@ -1,0 +1,2 @@
+class EnteriesController < ApplicationController
+end
