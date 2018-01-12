@@ -17,7 +17,7 @@ def new
   end
 
   def edit
-    redirect_to edit.html.erb
+    redirect_to entry_url(params[:id]
    end
 
 
